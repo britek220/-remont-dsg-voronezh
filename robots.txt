@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Yandex/Google: ускоренная индексация
+User-agent: Yandex
+Allow: /
+Host: https://remont-dsg-voronezh.ru
+Crawl-delay: 1
+
+User-agent: Googlebot
+Allow: /
+Sitemap: https://remont-dsg-voronezh.ru/sitemap.xml
+
+# Другие популярные
+User-agent: Bingbot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+
+# Sitemap (создай файл sitemap.xml)
+Sitemap: https://remont-dsg-voronezh.ru/sitemap.xml
