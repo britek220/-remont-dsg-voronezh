@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ремонт роботов DSG Воронеж | CarTime | Гарантия 2 года</title>
+<meta name="description" content="Обслуживание и ремонт DSG-6/7, DQ200 с гарантией 2 года на бумаге. Опыт 12+ лет, рейтинг 5/5 Яндекс. Честные цены без сюрпризов. Воронеж, Ленинский пр-т 158В.">
+<meta name="keywords" content="ремонт DSG Воронеж, обслуживание DSG, мехатроник DSG, DSG-6 DSG-7 DQ200, CarTime Воронеж">
+<meta property="og:title" content="Ремонт DSG в Воронеже | CarTime — Гарантия 2 года">
+<meta property="og:description" content="Профессиональный ремонт роботов DSG. Опыт 12+ лет. Рейтинг 5/5 Яндекс. Гарантия 2 года на бумаге.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "CarTime",
+  "description": "Ремонт и обслуживание роботов DSG в Воронеже",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ленинский пр-т 158В",
+    "addressLocality": "Воронеж",
+    "addressCountry": "RU"
+  },
+  "telephone": "+79038521553",
+  "openingHours": "Mo-Su 09:00-21:00",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "reviewCount": "200"
+  },
+  "url": "https://yandex.ru/maps/org/cartime/4106959910/"
+}
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0d1117;
+  --bg2:#151b23;
+  --bg3:#1c2430;
+  --red:#dc2626;
+  --red-h:#b91c1c;
+  --white:#f0f4f8;
+  --grey:#8b99a8;
+  --border:#232e3c;
+  --font-head:'Oswald',sans-serif;
+  --font-body:'IBM Plex Sans',sans-serif;
+  --radius:6px;
+  --shadow:0 4px 32px rgba(0,0,0,.5);
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{background:var(--bg);color:var(--white);font-family:var(--font-body);line-height:1.6;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit;text-decoration:none}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--red);border-radius:3px}
+
+/* UTILS */
+.container{max-width:1180px;margin:0 auto;padding:0 20px}
+.section-label{font-family:var(--font-head);font-size:clamp(.7rem,1.8vw,.85rem);letter-spacing:.2em;text-transform:uppercase;color:var(--red);margin-bottom:.5rem}
+.section-title{font-family:var(--font-head);font-size:clamp(1.8rem,4.5vw,3rem);font-weight:700;text-transform:uppercase;line-height:1.1;margin-bottom:1.5rem}
+.section-title span{color:var(--red)}
+.cta-btn{display:inline-flex;align-items:center;gap:.5rem;background:var(--red);color:#fff;font-family:var(--font-head);font-size:clamp(.95rem,2vw,1.1rem);font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.85rem 2rem;border-radius:var(--radius);border:2px solid var(--red);transition:background .2s,transform .15s,box-shadow .2s;cursor:pointer;min-height:48px}
+.cta-btn:hover{background:var(--red-h);border-color:var(--red-h);transform:translateY(-2px);box-shadow:0 8px 24px rgba(220,38,38,.35)}
+.cta-btn.outline{background:transparent;color:var(--white)}
+.cta-btn.outline:hover{background:var(--red);border-color:var(--red)}
+section{padding:clamp(60px,8vw,100px) 0}
+
+/* HEADER */
+header{position:sticky;top:0;z-index:100;background:rgba(13,17,23,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);transition:box-shadow .3s}
+header.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.6)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;height:64px;gap:1rem}
+.logo{font-family:var(--font-head);font-size:1.5rem;font-weight:700;letter-spacing:.05em}
+.logo span{color:var(--red)}
+nav{display:flex;align-items:center;gap:1.5rem}
+nav a{font-family:var(--font-head);font-size:.85rem;letter-spacing:.1em;text-transform:uppercase;color:var(--grey);transition:color .2s}
+nav a:hover{color:var(--white)}
+.header-tel{font-family:var(--font-head);font-size:1.05rem;font-weight:600;color:var(--red);white-space:nowrap;transition:color .2s}
+.header-tel:hover{color:var(--white)}
+.burger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;min-width:48px;min-height:48px;align-items:center;justify-content:center}
+.burger span{width:24px;height:2px;background:var(--white);border-radius:2px;transition:all .3s}
+.burger.active span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger.active span:nth-child(2){opacity:0}
+.burger.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-nav{display:none;position:fixed;inset:64px 0 0 0;background:var(--bg2);z-index:99;flex-direction:column;align-items:center;justify-content:center;gap:2rem;opacity:0;transition:opacity .3s}
+.mobile-nav.open{display:flex;opacity:1}
+.mobile-nav a{font-family:var(--font-head);font-size:1.4rem;letter-spacing:.1em;text-transform:uppercase;color:var(--white)}
+
+/* HERO */
+#hero{min-height:100svh;display:flex;align-items:center;padding:100px 0 60px;position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg-gradient{position:absolute;inset:0;background:linear-gradient(135deg,#0d1117 0%,#1a0a0a 40%,#0d1117 100%)}
+.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(220,38,38,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(220,38,38,.06) 1px,transparent 1px);background-size:48px 48px;opacity:.7}
+.gear-deco{position:absolute;right:-80px;top:50%;transform:translateY(-50%);width:min(500px,80vw);height:min(500px,80vw);opacity:.07;animation:spin 40s linear infinite}
+.gear-deco2{position:absolute;left:-60px;bottom:-60px;width:min(300px,50vw);height:min(300px,50vw);opacity:.05;animation:spin 60s linear infinite reverse}
+@keyframes spin{to{transform:translateY(-50%) rotate(360deg)}}
+@keyframes spin2{to{transform:rotate(360deg)}}
+.hero-content{position:relative;z-index:1;max-width:750px}
+.hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(220,38,38,.15);border:1px solid rgba(220,38,38,.4);border-radius:30px;padding:.35rem 1rem;font-family:var(--font-head);font-size:.8rem;letter-spacing:.15em;text-transform:uppercase;color:var(--red);margin-bottom:1.5rem}
+.hero-badge::before{content:'★';color:var(--red)}
+h1{font-family:var(--font-head);font-size:clamp(2rem,5.5vw,3.8rem);font-weight:700;text-transform:uppercase;line-height:1.05;margin-bottom:1.2rem}
+h1 span{color:var(--red);display:block}
+.hero-sub{font-size:clamp(1rem,2vw,1.15rem);color:var(--grey);max-width:580px;margin-bottom:2rem;line-height:1.7}
+.hero-sub strong{color:var(--white)}
+.hero-badges{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:.75rem;margin-bottom:2.5rem}
+.hero-badge-item{display:flex;align-items:center;gap:.6rem;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:.65rem 1rem;font-size:.85rem;transition:border-color .2s}
+.hero-badge-item:hover{border-color:var(--red)}
+.hero-badge-item .ico{font-size:1.2rem;flex-shrink:0}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:1rem;align-items:center}
+.hero-note{font-size:.8rem;color:var(--grey)}
+
+/* SYMPTOMS */
+#symptoms{background:var(--bg2)}
+.symptoms-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem;margin-bottom:2rem}
+.symptom-card{background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:1.4rem;display:flex;align-items:flex-start;gap:1rem;transition:border-color .25s,transform .2s}
+.symptom-card:hover{border-color:var(--red);transform:translateY(-3px)}
+.symptom-ico{font-size:2rem;flex-shrink:0;line-height:1}
+.symptom-card h3{font-family:var(--font-head);font-size:1rem;text-transform:uppercase;letter-spacing:.04em;margin-bottom:.3rem;color:var(--white)}
+.symptom-card p{font-size:.82rem;color:var(--grey);line-height:1.5}
+.symptoms-cta{text-align:center}
+
+/* SERVICES */
+#services{}
+.services-tabs{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:2rem;border-bottom:2px solid var(--border);padding-bottom:0}
+.tab-btn{font-family:var(--font-head);font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;background:none;border:none;color:var(--grey);padding:.75rem 1.2rem;cursor:pointer;position:relative;transition:color .2s;border-bottom:3px solid transparent;margin-bottom:-2px}
+.tab-btn.active,.tab-btn:hover{color:var(--white)}
+.tab-btn.active{color:var(--red);border-bottom-color:var(--red)}
+.tab-content{display:none}
+.tab-content.active{display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;animation:fadeIn .3s}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.service-detail h3{font-family:var(--font-head);font-size:1.5rem;text-transform:uppercase;margin-bottom:.8rem;color:var(--white)}
+.service-detail p{color:var(--grey);margin-bottom:1rem;line-height:1.7}
+.service-list{list-style:none;display:flex;flex-direction:column;gap:.5rem}
+.service-list li{display:flex;align-items:flex-start;gap:.7rem;color:var(--grey);font-size:.9rem}
+.service-list li::before{content:'—';color:var(--red);flex-shrink:0;font-family:var(--font-head)}
+.service-visual{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:2rem;display:flex;flex-direction:column;gap:1rem}
+.service-stat{display:flex;flex-direction:column}
+.service-stat strong{font-family:var(--font-head);font-size:2rem;color:var(--red)}
+.service-stat span{font-size:.85rem;color:var(--grey)}
+.service-visual svg{opacity:.2;margin:auto}
+
+/* ADVANTAGES */
+#advantages{background:var(--bg2)}
+.adv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-bottom:3rem}
+.adv-card{background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;transition:border-color .25s,transform .2s}
+.adv-card:hover{border-color:var(--red);transform:translateY(-3px)}
+.adv-ico{font-size:2rem;margin-bottom:.75rem}
+.adv-card h3{font-family:var(--font-head);font-size:1rem;text-transform:uppercase;letter-spacing:.04em;margin-bottom:.4rem}
+.adv-card p{font-size:.83rem;color:var(--grey);line-height:1.5}
+.adv-counter{display:flex;align-items:center;gap:3rem;flex-wrap:wrap;background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:2rem 2.5rem}
+.counter-item{text-align:center}
+.counter-num{font-family:var(--font-head);font-size:clamp(2.5rem,5vw,3.5rem);font-weight:700;color:var(--red);line-height:1}
+.counter-label{font-size:.83rem;color:var(--grey);margin-top:.3rem}
+.adv-guarantee{background:linear-gradient(135deg,#1a0808,#0d1117);border:2px solid var(--red);border-radius:var(--radius);padding:2rem;margin-top:2rem;display:flex;align-items:center;gap:2rem;flex-wrap:wrap}
+.guarantee-icon{font-size:4rem;flex-shrink:0}
+.guarantee-text h3{font-family:var(--font-head);font-size:1.4rem;text-transform:uppercase;margin-bottom:.5rem}
+.guarantee-text p{color:var(--grey);font-size:.9rem;max-width:500px}
+.guarantee-badge{background:var(--red);color:#fff;font-family:var(--font-head);font-size:1.8rem;font-weight:700;padding:.75rem 1.5rem;border-radius:var(--radius);white-space:nowrap;text-align:center;line-height:1.2}
+.guarantee-badge small{display:block;font-size:.7rem;letter-spacing:.1em;opacity:.8}
+
+/* REVIEWS */
+#reviews{}
+.reviews-header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-bottom:2rem}
+.yandex-badge{display:flex;align-items:center;gap:1rem;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:1rem 1.5rem}
+.stars{color:#fbbf24;font-size:1.4rem;letter-spacing:.1em}
+.yandex-badge-text strong{font-family:var(--font-head);font-size:1.1rem;display:block}
+.yandex-badge-text span{font-size:.8rem;color:var(--grey)}
+.award{background:rgba(220,38,38,.1);border:1px solid rgba(220,38,38,.3);border-radius:var(--radius);padding:.5rem 1rem;font-size:.8rem;font-family:var(--font-head);letter-spacing:.08em;text-transform:uppercase;color:var(--red)}
+.carousel-wrap{position:relative;overflow:hidden}
+.carousel-track{display:flex;gap:1.2rem;transition:transform .4s cubic-bezier(.25,.46,.45,.94)}
+.review-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;min-width:320px;flex-shrink:0;transition:border-color .2s}
+.review-card:hover{border-color:rgba(220,38,38,.4)}
+.review-top{display:flex;align-items:center;gap:.8rem;margin-bottom:1rem}
+.reviewer-avatar{width:44px;height:44px;border-radius:50%;background:var(--red);display:flex;align-items:center;justify-content:center;font-family:var(--font-head);font-size:1.1rem;font-weight:700;color:#fff;flex-shrink:0}
+.reviewer-name{font-family:var(--font-head);font-size:.95rem;text-transform:uppercase;letter-spacing:.04em}
+.reviewer-meta{font-size:.75rem;color:var(--grey)}
+.review-stars{color:#fbbf24;font-size:.9rem;margin-bottom:.75rem}
+.review-text{font-size:.88rem;color:var(--grey);line-height:1.6}
+.carousel-controls{display:flex;align-items:center;gap:1rem;margin-top:1.5rem;justify-content:flex-end}
+.carousel-btn{width:44px;height:44px;border-radius:50%;border:1px solid var(--border);background:var(--bg2);color:var(--white);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1.2rem;transition:background .2s,border-color .2s}
+.carousel-btn:hover{background:var(--red);border-color:var(--red)}
+.carousel-dots{display:flex;gap:.4rem}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--border);cursor:pointer;transition:background .2s}
+.dot.active{background:var(--red)}
+.reviews-link{text-align:center;margin-top:2rem}
+.reviews-link a{color:var(--red);font-family:var(--font-head);letter-spacing:.05em;text-transform:uppercase;font-size:.9rem;border-bottom:1px solid transparent;transition:border-color .2s}
+.reviews-link a:hover{border-bottom-color:var(--red)}
+
+/* CONTACTS */
+#contacts{background:var(--bg2)}
+.contacts-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.contact-info h3{font-family:var(--font-head);font-size:1.2rem;text-transform:uppercase;margin-bottom:1.5rem;color:var(--red);letter-spacing:.08em}
+.contact-item{display:flex;gap:1rem;margin-bottom:1.2rem;align-items:flex-start}
+.contact-ico{font-size:1.5rem;flex-shrink:0;margin-top:.1rem}
+.contact-item-text strong{font-family:var(--font-head);font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;display:block;margin-bottom:.2rem}
+.contact-item-text span,.contact-item-text a{font-size:.95rem;color:var(--grey)}
+.contact-item-text a{color:var(--white);transition:color .2s}
+.contact-item-text a:hover{color:var(--red)}
+.contact-ctas{display:flex;flex-direction:column;gap:.8rem;margin-top:2rem}
+.map-wrap{border-radius:var(--radius);overflow:hidden;border:1px solid var(--border)}
+.map-wrap iframe{width:100%;height:360px;border:0;display:block;filter:grayscale(30%)}
+
+/* FOOTER */
+footer{background:var(--bg);border-top:1px solid var(--border);padding:2rem 0}
+.footer-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.footer-logo{font-family:var(--font-head);font-size:1.1rem;font-weight:700}
+.footer-logo span{color:var(--red)}
+.footer-info{font-size:.8rem;color:var(--grey);text-align:center}
+.footer-tel a{font-family:var(--font-head);font-size:1.05rem;color:var(--red)}
+
+/* STICKY CTA (mobile) */
+.sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:200;background:var(--red);padding:.75rem 1rem;text-align:center}
+.sticky-cta a{color:#fff;font-family:var(--font-head);font-size:1.1rem;letter-spacing:.06em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:.5rem}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  nav{display:none}
+  .burger{display:flex}
+  .tab-content.active{grid-template-columns:1fr}
+  .contacts-grid{grid-template-columns:1fr}
+  .adv-counter{gap:1.5rem;justify-content:center}
+  .gear-deco,.gear-deco2{display:none}
+}
+@media(max-width:600px){
+  .header-tel{font-size:.95rem}
+  .hero-badges{grid-template-columns:1fr 1fr}
+  .symptoms-grid{grid-template-columns:1fr}
+  .adv-grid{grid-template-columns:1fr 1fr}
+  .adv-guarantee{flex-direction:column;align-items:flex-start}
+  .sticky-cta{display:block}
+  body{padding-bottom:56px}
+  .review-card{min-width:280px}
+}
+@media(max-width:400px){
+  .hero-badges{grid-template-columns:1fr}
+  .adv-grid{grid-template-columns:1fr}
+  .reviews-header{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="site-header">
+  <div class="container header-inner">
+    <a href="#hero" class="logo">Car<span>Time</span></a>
+    <nav>
+      <a href="#symptoms">Симптомы</a>
+      <a href="#services">Услуги</a>
+      <a href="#advantages">Преимущества</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a href="tel:+79038521553" class="header-tel">☎ +7(903)852-15-53</a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobile-nav" role="navigation">
+  <a href="#symptoms" class="mob-link">Симптомы</a>
+  <a href="#services" class="mob-link">Услуги</a>
+  <a href="#advantages" class="mob-link">Преимущества</a>
+  <a href="#reviews" class="mob-link">Отзывы</a>
+  <a href="#contacts" class="mob-link">Контакты</a>
+  <a href="tel:+79038521553" class="cta-btn" style="margin-top:1rem">☎ +7(903)852-15-53</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg">
+    <div class="hero-bg-gradient"></div>
+    <div class="hero-grid"></div>
+    <!-- Gear SVG deco -->
+    <svg class="gear-deco" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path fill="#dc2626" d="M100 30a10 10 0 0 1 0 20 10 10 0 0 0 0 20 50 50 0 0 1 0 100 10 10 0 0 0 0 20 10 10 0 0 1 0-20 50 50 0 0 0 0-100 10 10 0 0 1 0-20z"/>
+      <circle cx="100" cy="100" r="55" fill="none" stroke="#dc2626" stroke-width="2"/>
+      <circle cx="100" cy="100" r="28" fill="none" stroke="#dc2626" stroke-width="8"/>
+      <g stroke="#dc2626" stroke-width="12" stroke-linecap="round">
+        <line x1="100" y1="30" x2="100" y2="10"/>
+        <line x1="100" y1="190" x2="100" y2="170"/>
+        <line x1="30" y1="100" x2="10" y2="100"/>
+        <line x1="190" y1="100" x2="170" y2="100"/>
+        <line x1="51" y1="51" x2="37" y2="37"/>
+        <line x1="163" y1="163" x2="149" y2="149"/>
+        <line x1="149" y1="51" x2="163" y2="37"/>
+        <line x1="37" y1="163" x2="51" y2="149"/>
+      </g>
+    </svg>
+    <svg class="gear-deco2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="animation:spin2 60s linear infinite">
+      <circle cx="100" cy="100" r="70" fill="none" stroke="#dc2626" stroke-width="2"/>
+      <circle cx="100" cy="100" r="32" fill="none" stroke="#dc2626" stroke-width="12"/>
+      <g stroke="#dc2626" stroke-width="16" stroke-linecap="round">
+        <line x1="100" y1="18" x2="100" y2="2"/>
+        <line x1="100" y1="198" x2="100" y2="182"/>
+        <line x1="18" y1="100" x2="2" y2="100"/>
+        <line x1="198" y1="100" x2="182" y2="100"/>
+        <line x1="43" y1="43" x2="31" y2="31"/>
+        <line x1="169" y1="169" x2="157" y2="157"/>
+        <line x1="157" y1="43" x2="169" y2="31"/>
+        <line x1="31" y1="169" x2="43" y2="157"/>
+      </g>
+    </svg>
+  </div>
+  <div class="container hero-content">
+    <div class="hero-badge">★ Рейтинг 5/5 на Яндекс.Картах · «Хорошее место 2025–2026»</div>
+    <h1>Ремонт и обслуживание роботов DSG в Воронеже <span>| CarTime</span></h1>
+    <p class="hero-sub"><strong>Профессионально занимаемся DSG.</strong> Честные цены без сюрпризов. Гарантия <strong>2 года на бумаге</strong>. Опыт <strong>12+ лет</strong> — DSG-6/7, DQ200, DQ250 и все типы АКПП.</p>
+    <div class="hero-badges">
+      <div class="hero-badge-item"><span class="ico">⚙️</span><span>Специализация DSG-6 и DSG-7</span></div>
+      <div class="hero-badge-item"><span class="ico">📋</span><span>Гарантия 2 года на бумаге</span></div>
+      <div class="hero-badge-item"><span class="ico">💰</span><span>Честные цены без изменений</span></div>
+      <div class="hero-badge-item"><span class="ico">⭐</span><span>5/5 Яндекс · 200+ отзывов</span></div>
+      <div class="hero-badge-item"><span class="ico">🏆</span><span>Опыт 12+ лет · АКПП/Роботы</span></div>
+      <div class="hero-badge-item"><span class="ico">📞</span><span>Бесплатная консультация 24/7</span></div>
+    </div>
+    <div class="hero-ctas">
+      <a href="tel:+79038521553" class="cta-btn">📞 Позвонить бесплатно</a>
+      <a href="#symptoms" class="cta-btn outline">Узнать симптомы &darr;</a>
+    </div>
+    <p class="hero-note" style="margin-top:1rem">⚡ Диагностика — 30 минут. Ремонт — от 1 дня.</p>
+  </div>
+</section>
+
+<!-- SYMPTOMS -->
+<section id="symptoms">
+  <div class="container">
+    <p class="section-label">Диагностика</p>
+    <h2 class="section-title">Признаки поломки <span>роботов DSG</span></h2>
+    <p style="color:var(--grey);max-width:620px;margin-bottom:2rem">Если вы заметили хотя бы один из симптомов — не откладывайте визит. Промедление превращает мелкий ремонт в дорогостоящий.</p>
+    <div class="symptoms-grid">
+      <div class="symptom-card">
+        <div class="symptom-ico">⚡</div>
+        <div>
+          <h3>Рывки и толчки на 1–2 передаче</h3>
+          <p>Характерный признак износа сцепления или неисправности мехатроника. Особенно ощутимо в пробках при старте.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-ico">🔴</div>
+        <div>
+          <h3>Ошибки P17BF, P17B9, R/N/D</h3>
+          <p>Коды ошибок мехатроника DSG. Сигнализируют о проблемах с соленоидами, давлением масла или датчиками.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-ico">⏱️</div>
+        <div>
+          <h3>Задержки при переключении передач</h3>
+          <p>Пауза 1–3 секунды при разгоне или смене режима — признак засорения гидроблока или износа соленоидов.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-ico">🔊</div>
+        <div>
+          <h3>Шумы и вибрации при езде</h3>
+          <p>Скрежет, гул или вибрация при переключении — износ дисков сцепления, подшипников или вилок переключения.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-ico">💨</div>
+        <div>
+          <h3>Пробуксовка при разгоне</h3>
+          <p>Двигатель «раскручивается», а машина не едет — критичный износ фрикционных дисков сцепления DSG.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-ico">💧</div>
+        <div>
+          <h3>Течь масла из коробки</h3>
+          <p>Следы масла под автомобилем — признак износа сальников или уплотнителей. Требует срочного устранения.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-ico">🚫</div>
+        <div>
+          <h3>Не включается задняя / Drive</h3>
+          <p>Коробка не выходит из режима P или не включает R/D — неисправность мехатроника или электроники DSG.</p>
+        </div>
+      </div>
+      <div class="symptom-card">
+        <div class="symptom-ico">⚠️</div>
+        <div>
+          <h3>Check Engine и аварийный режим</h3>
+          <p>Постоянная лампа Check или переход в «аварийку» — требуется срочная компьютерная диагностика DSG.</p>
+        </div>
+      </div>
+    </div>
+    <div class="symptoms-cta">
+      <a href="tel:+79038521553" class="cta-btn">☎ Записаться на диагностику — 30 минут</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <p class="section-label">Наши услуги</p>
+    <h2 class="section-title">Что ремонтируем <span>в DSG</span></h2>
+    <div class="services-tabs" role="tablist">
+      <button class="tab-btn active" role="tab" aria-selected="true" data-tab="diag">Диагностика</button>
+      <button class="tab-btn" role="tab" data-tab="mech">Мехатроник</button>
+      <button class="tab-btn" role="tab" data-tab="hydro">Гидроблок</button>
+      <button class="tab-btn" role="tab" data-tab="clutch">Сцепление</button>
+      <button class="tab-btn" role="tab" data-tab="sol">Соленоиды</button>
+      <button class="tab-btn" role="tab" data-tab="oil">Замена масла</button>
+    </div>
+
+    <div class="tab-content active" id="tab-diag" role="tabpanel">
+      <div class="service-detail">
+        <h3>Компьютерная диагностика DSG</h3>
+        <p>Используем профессиональное оборудование VASYA Kommander, Launch X431 и оригинальные VAG-COM адаптеры. Считываем все коды ошибок, анализируем работу мехатроника в реальном времени.</p>
+        <ul class="service-list">
+          <li>Считывание и расшифровка кодов ошибок (P17BF, P17B9 и др.)</li>
+          <li>Анализ давления масла в гидравлической системе</li>
+          <li>Проверка соленоидов и датчиков положения</li>
+          <li>Тест адаптаций сцепления</li>
+          <li>Диагностика электронного блока управления</li>
+        </ul>
+      </div>
+      <div class="service-visual">
+        <div class="service-stat"><strong>30 мин</strong><span>Время диагностики</span></div>
+        <div class="service-stat"><strong>100%</strong><span>Прозрачный отчёт</span></div>
+        <div class="service-stat"><strong>Бесплатно</strong><span>при ремонте у нас</span></div>
+        <svg viewBox="0 0 120 80" width="120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="10" y="10" width="100" height="60" rx="4" fill="none" stroke="#dc2626" stroke-width="2"/><polyline points="20,55 35,35 50,45 65,25 80,40 100,20" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="100" cy="20" r="3" fill="#dc2626"/></svg>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-mech" role="tabpanel">
+      <div class="service-detail">
+        <h3>Ремонт мехатроника DSG</h3>
+        <p>Мехатроник — «сердце» DSG. Ремонтируем мехатроники DQ200 (сухое сцепление) и DQ250 (мокрое сцепление). Замена соленоидов, ревизия гидравлического блока, промывка каналов.</p>
+        <ul class="service-list">
+          <li>Разборка и дефектовка мехатроника</li>
+          <li>Замена изношенных соленоидов (7 шт. в DQ200)</li>
+          <li>Восстановление гидравлических каналов</li>
+          <li>Замена уплотнений и прокладок</li>
+          <li>Программирование и адаптация после ремонта</li>
+        </ul>
+      </div>
+      <div class="service-visual">
+        <div class="service-stat"><strong>DQ200</strong><span>Сухое сцепление DSG-7</span></div>
+        <div class="service-stat"><strong>DQ250</strong><span>Мокрое сцепление DSG-6</span></div>
+        <div class="service-stat"><strong>2 года</strong><span>Гарантия на ремонт</span></div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-hydro" role="tabpanel">
+      <div class="service-detail">
+        <h3>Ремонт гидроблока DSG</h3>
+        <p>Гидравлический блок управляет давлением масла и переключениями передач. Засорение или износ клапанов вызывает рывки, задержки и ошибки. Промываем, восстанавливаем или заменяем.</p>
+        <ul class="service-list">
+          <li>Промывка гидравлических каналов под давлением</li>
+          <li>Замена регулирующих клапанов и пружин</li>
+          <li>Проверка и замена аккумуляторов давления</li>
+          <li>Установка ремкомплекта гидроблока</li>
+        </ul>
+      </div>
+      <div class="service-visual">
+        <div class="service-stat"><strong>1–2 дня</strong><span>Срок ремонта</span></div>
+        <div class="service-stat"><strong>OEM</strong><span>Оригинальные запчасти</span></div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-clutch" role="tabpanel">
+      <div class="service-detail">
+        <h3>Замена сцепления и муфт DSG</h3>
+        <p>Двойное сцепление DSG рассчитано на 150–200 тыс. км. При износе появляются рывки, пробуксовка, вибрации. Заменяем комплектом с обязательной адаптацией.</p>
+        <ul class="service-list">
+          <li>Замена комплекта двойного сцепления DSG-6/7</li>
+          <li>Замена вилок выключения сцепления</li>
+          <li>Ревизия и замена подшипников</li>
+          <li>Обязательная компьютерная адаптация после замены</li>
+          <li>Проверка в движении (тест-драйв)</li>
+        </ul>
+      </div>
+      <div class="service-visual">
+        <div class="service-stat"><strong>1 день</strong><span>Замена с адаптацией</span></div>
+        <div class="service-stat"><strong>LUK/Sachs</strong><span>Проверенные производители</span></div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-sol" role="tabpanel">
+      <div class="service-detail">
+        <h3>Замена соленоидов и клапанов</h3>
+        <p>Соленоиды управляют гидравлическими каналами мехатроника. Неисправный соленоид вызывает рывки, ошибки и пробуксовку. Заменяем оригинальными или качественными аналогами.</p>
+        <ul class="service-list">
+          <li>Диагностика каждого соленоида (мультиметр + сканер)</li>
+          <li>Замена неисправных соленоидов</li>
+          <li>Замена регулирующих клапанов давления</li>
+          <li>Очистка посадочных мест соленоидов</li>
+          <li>Проверка после ремонта на сканере</li>
+        </ul>
+      </div>
+      <div class="service-visual">
+        <div class="service-stat"><strong>7 шт.</strong><span>Соленоидов в DQ200</span></div>
+        <div class="service-stat"><strong>OEM/OE</strong><span>Качественные запчасти</span></div>
+      </div>
+    </div>
+
+    <div class="tab-content" id="tab-oil" role="tabpanel">
+      <div class="service-detail">
+        <h3>Замена масла DSG + адаптация</h3>
+        <p>Масло в DSG меняют каждые 60 000 км (или чаще при интенсивной эксплуатации). Используем только одобренные масла Castrol, Pentosin, Shell для DSG. Обязательная сброс адаптаций после замены.</p>
+        <ul class="service-list">
+          <li>Слив отработанного масла, промывка поддона</li>
+          <li>Замена фильтра DSG (сетчатый + бумажный)</li>
+          <li>Заправка одобренным маслом DSG (G052182A2 и др.)</li>
+          <li>Сброс адаптаций и обучение коробки</li>
+          <li>Проверка на течи и уровня масла</li>
+        </ul>
+      </div>
+      <div class="service-visual">
+        <div class="service-stat"><strong>3–5 л</strong><span>Объём масла DSG-7</span></div>
+        <div class="service-stat"><strong>60 000</strong><span>км интервал замены</span></div>
+        <div class="service-stat"><strong>Original</strong><span>Масло VW/Castrol/Pentosin</span></div>
+      </div>
+    </div>
+
+    <div style="margin-top:2rem;text-align:center">
+      <a href="tel:+79038521553" class="cta-btn">☎ Позвонить и узнать стоимость</a>
+    </div>
+  </div>
+</section>
+
+<!-- ADVANTAGES -->
+<section id="advantages">
+  <div class="container">
+    <p class="section-label">Наши преимущества</p>
+    <h2 class="section-title">Почему CarTime — <span>#1 по DSG</span> в Воронеже</h2>
+    <div class="adv-grid">
+      <div class="adv-card">
+        <div class="adv-ico">🎯</div>
+        <h3>Специализация на DSG</h3>
+        <p>Занимаемся только DSG профессионально — не «между делом». Знаем каждую модификацию DQ200/DQ250.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-ico">💰</div>
+        <h3>Честные цены</h3>
+        <p>Озвучиваем стоимость ДО начала работ. Без скрытых доплат и «неожиданных» запчастей в процессе.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-ico">📋</div>
+        <h3>Гарантия 2 года на бумаге</h3>
+        <p>Выдаём официальный гарантийный талон. Гарантия без ограничений по пробегу — только по времени.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-ico">🏆</div>
+        <h3>Опыт 12+ лет</h3>
+        <p>С 2012 года специализируемся на вариаторах, роботах и АКПП. Решаем задачи любой сложности.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-ico">🏭</div>
+        <h3>Чистые боксы и современное оборудование</h3>
+        <p>Профессиональные подъёмники, промывочные стенды, диагностические сканеры VAG-COM, VASYA, Launch.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-ico">🔬</div>
+        <h3>Грамотная диагностика</h3>
+        <p>Не угадываем — диагностируем. Детальный анализ перед ремонтом исключает лишние траты.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-ico">🔧</div>
+        <h3>Замена масла + сопутствующие</h3>
+        <p>Комплексное обслуживание: масло, фильтры, адаптация, уплотнения — всё в одном визите.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-ico">⭐</div>
+        <h3>Рейтинг 5/5 Яндекс</h3>
+        <p>«Хорошее место 2025 и 2026» — награда Яндекса по отзывам реальных клиентов. 200+ отзывов.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-ico">📞</div>
+        <h3>Бесплатные консультации 24/7</h3>
+        <p>Звоните в любое время — ответим на вопросы о симптомах, стоимости и сроках без звонка дилера.</p>
+      </div>
+      <div class="adv-card">
+        <div class="adv-ico">📍</div>
+        <h3>Удобное расположение</h3>
+        <p>Ленинский пр-т 158В — центральная магистраль Воронежа, удобный подъезд с любого района города.</p>
+      </div>
+    </div>
+
+    <div class="adv-counter">
+      <div class="counter-item"><div class="counter-num">12+</div><div class="counter-label">лет опыта</div></div>
+      <div class="counter-item"><div class="counter-num">98%</div><div class="counter-label">успешных ремонтов</div></div>
+      <div class="counter-item"><div class="counter-num">5/5</div><div class="counter-label">рейтинг Яндекс</div></div>
+      <div class="counter-item"><div class="counter-num">200+</div><div class="counter-label">отзывов</div></div>
+      <div class="counter-item"><div class="counter-num">2 года</div><div class="counter-label">гарантия письменно</div></div>
+    </div>
+
+    <div class="adv-guarantee">
+      <div class="guarantee-icon">🛡️</div>
+      <div class="guarantee-text">
+        <h3>Гарантия 2 года — без пробега, на бумаге</h3>
+        <p>Мы единственные в Воронеже даём письменную гарантию на ремонт DSG сроком <strong>2 года</strong> без ограничений по пробегу. Гарантийный талон выдаётся вместе с актом выполненных работ. Если что-то пойдёт не так — устраняем за наш счёт.</p>
+      </div>
+      <div class="guarantee-badge">2 ГОДА<small>ГАРАНТИЯ</small></div>
+    </div>
+
+    <div style="margin-top:2rem;text-align:center">
+      <a href="tel:+79038521553" class="cta-btn">☎ Позвонить прямо сейчас</a>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="container">
+    <div class="reviews-header">
+      <div>
+        <p class="section-label">Реальные клиенты</p>
+        <h2 class="section-title">Отзывы на <span>Яндекс.Картах</span></h2>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:.75rem;align-items:flex-end">
+        <div class="yandex-badge">
+          <div>
+            <div class="stars">★★★★★</div>
+          </div>
+          <div class="yandex-badge-text">
+            <strong>5.0 из 5</strong>
+            <span>Яндекс.Карты · 200+ отзывов</span>
+          </div>
+        </div>
+        <div style="display:flex;gap:.5rem;flex-wrap:wrap">
+          <span class="award">🏆 Хорошее место 2025</span>
+          <span class="award">🏆 Хорошее место 2026</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-wrap">
+      <div class="carousel-track" id="carousel">
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">А</div>
+            <div>
+              <div class="reviewer-name">Алексей К.</div>
+              <div class="reviewer-meta">Volkswagen Golf 7 · DSG-7 · Февраль 2025</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Обратился с рывками на 1-2 передаче на VW Golf 7. Ребята диагностировали за 30 минут — мехатроник + износ сцепления. Сделали за 2 дня, дали гарантию 2 года на бумаге. Езжу 4 месяца — всё отлично. Цена честная, никаких «сюрпризов» в процессе. Рекомендую!</p>
+        </div>
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">М</div>
+            <div>
+              <div class="reviewer-name">Марина Т.</div>
+              <div class="reviewer-meta">Skoda Octavia A7 · DSG-6 · Март 2025</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Приехала с ошибкой P17BF и аварийным режимом коробки. В дилере хотели 180 тыс. за новый мехатроник. В CarTime восстановили за треть цены с гарантией 2 года! Прошло 3 месяца, коробка работает идеально. Очень благодарна — сэкономила огромные деньги.</p>
+        </div>
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">Д</div>
+            <div>
+              <div class="reviewer-name">Дмитрий В.</div>
+              <div class="reviewer-meta">Audi A3 · DQ200 · Январь 2025</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">DSG-7 (DQ200) начала буксовать при разгоне. Замена сцепления + адаптация — всё сделали за день. Мастера объяснили причину, показали старые детали. Гарантийный талон выдали сразу. Машина едет как новая. Опыт и профессионализм чувствуются с первой минуты.</p>
+        </div>
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">И</div>
+            <div>
+              <div class="reviewer-name">Иван Л.</div>
+              <div class="reviewer-meta">Seat Leon · DSG-7 · Апрель 2025</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Задержки переключений и рывки при движении по городу. Оказался засорённый гидроблок + соленоиды. Мастера всё объяснили, стоимость не изменилась ни на рубль от первоначальной оценки. Это редкость! Честный сервис с реальной гарантией.</p>
+        </div>
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">Е</div>
+            <div>
+              <div class="reviewer-name">Елена С.</div>
+              <div class="reviewer-meta">Volkswagen Tiguan · DSG-6 · Май 2025</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Обратилась за плановой заменой масла в DSG. Заодно провели диагностику — нашли небольшой износ, предупредили. Масло заменили быстро, адаптацию сделали, проверили на ходу. Сервис чистый, персонал вежливый. Буду обслуживаться только здесь.</p>
+        </div>
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">С</div>
+            <div>
+              <div class="reviewer-name">Сергей Н.</div>
+              <div class="reviewer-meta">Skoda Superb · DSG-6 · Июнь 2025</div>
+            </div>
+          </div>
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">Коробка не включала задний ход — страшный сон. Диагностика показала неисправность электромагнитного клапана. Заменили за полдня. Позвонили по готовности, объяснили всё доступно. Гарантию дали 2 года. Отличный сервис, 12 лет опыта — это чувствуется!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-controls">
+      <div class="carousel-dots" id="dots"></div>
+      <button class="carousel-btn" id="prev" aria-label="Назад">&#8592;</button>
+      <button class="carousel-btn" id="next" aria-label="Вперёд">&#8594;</button>
+    </div>
+
+    <div class="reviews-link">
+      <a href="https://yandex.ru/maps/org/cartime/4106959910/" target="_blank" rel="noopener noreferrer">
+        Читать все отзывы на Яндекс.Картах &rarr;
+      </a>
+    </div>
+    <div style="margin-top:2rem;text-align:center">
+      <a href="tel:+79038521553" class="cta-btn">☎ Записаться по телефону</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTS -->
+<section id="contacts">
+  <div class="container">
+    <p class="section-label">Мы в Воронеже</p>
+    <h2 class="section-title">Приезжайте <span>сегодня!</span></h2>
+    <div class="contacts-grid">
+      <div class="contact-info">
+        <h3>Как нас найти</h3>
+        <div class="contact-item">
+          <div class="contact-ico">📍</div>
+          <div class="contact-item-text">
+            <strong>Адрес</strong>
+            <span>г. Воронеж, Ленинский пр-т 158В</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-ico">📞</div>
+          <div class="contact-item-text">
+            <strong>Телефон</strong>
+            <a href="tel:+79038521553">+7 (903) 852-15-53</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-ico">🕐</div>
+          <div class="contact-item-text">
+            <strong>Режим работы</strong>
+            <span>Пн–Вс: 9:00–21:00</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-ico">💬</div>
+          <div class="contact-item-text">
+            <strong>Консультации</strong>
+            <span>Бесплатно, 24/7 по телефону</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-ico">⭐</div>
+          <div class="contact-item-text">
+            <strong>Яндекс.Карты</strong>
+            <a href="https://yandex.ru/maps/org/cartime/4106959910/" target="_blank" rel="noopener noreferrer">Открыть на карте &rarr;</a>
+          </div>
+        </div>
+        <div class="contact-ctas">
+          <a href="tel:+79038521553" class="cta-btn">📞 Позвонить сейчас — бесплатно</a>
+          <a href="tel:+79038521553" class="cta-btn outline">☎ Записаться на диагностику</a>
+          <p style="font-size:.82rem;color:var(--grey);margin-top:.5rem">Бесплатная консультация по симптомам вашей DSG. Без обязательств.</p>
+        </div>
+      </div>
+      <div>
+        <div class="map-wrap">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?ll=39.186699%2C51.633596&z=16&pt=39.186699%2C51.633596%2Cpm2rdm~39.186699%2C51.633596%2Cpm2rdl&text=%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%2C+%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80-%D1%82+158%D0%92&l=map"
+            title="CarTime на карте — г. Воронеж, Ленинский пр-т 158В"
+            loading="lazy"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div style="margin-top:1rem;background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:1rem 1.2rem">
+          <p style="font-size:.85rem;color:var(--grey);line-height:1.6"><strong style="color:var(--white)">🚗 Как проехать:</strong> Ленинский проспект — центральная магистраль Воронежа. Номер 158В — въезд со стороны автомобильного ряда. Ориентир: ищите вывеску CarTime. Парковка свободная.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-logo">Car<span>Time</span></div>
+    <div class="footer-info">
+      <div>© 2025 CarTime · Ремонт DSG в Воронеже</div>
+      <div>г. Воронеж, Ленинский пр-т 158В</div>
+    </div>
+    <div class="footer-tel"><a href="tel:+79038521553">+7(903)852-15-53</a></div>
+  </div>
+</footer>
+
+<!-- STICKY CTA (mobile) -->
+<div class="sticky-cta" aria-label="Позвонить в CarTime">
+  <a href="tel:+79038521553">📞 Позвонить бесплатно — +7(903)852-15-53</a>
+</div>
+
+<script>
+// HEADER SCROLL
+const header=document.getElementById('site-header');
+window.addEventListener('scroll',()=>{
+  header.classList.toggle('scrolled',window.scrollY>20);
+},{passive:true});
+
+// BURGER MENU
+const burger=document.getElementById('burger');
+const mobileNav=document.getElementById('mobile-nav');
+burger.addEventListener('click',()=>{
+  const open=mobileNav.classList.toggle('open');
+  burger.classList.toggle('active',open);
+  burger.setAttribute('aria-expanded',open);
+  document.body.style.overflow=open?'hidden':'';
+});
+document.querySelectorAll('.mob-link').forEach(l=>{
+  l.addEventListener('click',()=>{
+    mobileNav.classList.remove('open');
+    burger.classList.remove('active');
+    burger.setAttribute('aria-expanded','false');
+    document.body.style.overflow='';
+  });
+});
+
+// TABS
+document.querySelectorAll('.tab-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    document.querySelectorAll('.tab-btn').forEach(b=>{b.classList.remove('active');b.setAttribute('aria-selected','false');});
+    document.querySelectorAll('.tab-content').forEach(c=>c.classList.remove('active'));
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected','true');
+    document.getElementById('tab-'+btn.dataset.tab).classList.add('active');
+  });
+});
+
+// CAROUSEL
+(function(){
+  const track=document.getElementById('carousel');
+  const cards=track.querySelectorAll('.review-card');
+  const dotsEl=document.getElementById('dots');
+  let idx=0;
+  let perView=window.innerWidth<600?1:window.innerWidth<900?2:3;
+
+  function getPerView(){return window.innerWidth<600?1:window.innerWidth<900?2:3;}
+
+  function buildDots(){
+    dotsEl.innerHTML='';
+    const total=Math.ceil(cards.length/perView);
+    for(let i=0;i<total;i++){
+      const d=document.createElement('button');
+      d.className='dot'+(i===0?' active':'');
+      d.setAttribute('aria-label','Страница '+(i+1));
+      d.addEventListener('click',()=>goTo(i));
+      dotsEl.appendChild(d);
+    }
+  }
+
+  function goTo(i){
+    const total=Math.ceil(cards.length/perView);
+    idx=Math.max(0,Math.min(i,total-1));
+    const cardW=cards[0].offsetWidth+parseInt(getComputedStyle(track).gap||'19');
+    track.style.transform=`translateX(-${idx*perView*cardW}px)`;
+    dotsEl.querySelectorAll('.dot').forEach((d,j)=>d.classList.toggle('active',j===idx));
+  }
+
+  document.getElementById('prev').addEventListener('click',()=>goTo(idx-1));
+  document.getElementById('next').addEventListener('click',()=>goTo(idx+1));
+
+  let startX=0;
+  track.addEventListener('touchstart',e=>{startX=e.touches[0].clientX;},{passive:true});
+  track.addEventListener('touchend',e=>{
+    const dx=e.changedTouches[0].clientX-startX;
+    if(Math.abs(dx)>40){dx<0?goTo(idx+1):goTo(idx-1);}
+  },{passive:true});
+
+  window.addEventListener('resize',()=>{
+    const nv=getPerView();
+    if(nv!==perView){perView=nv;idx=0;buildDots();goTo(0);}
+  },{passive:true});
+
+  buildDots();
+  goTo(0);
+})();
+</script>
+</body>
+</html>
