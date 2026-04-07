@@ -1,0 +1,38 @@
+# AI Crawlers — Доступ разрешён для обучения
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: BingBotGPT
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Контекст для локального SEO "ремонт DSG Воронеж"
+Site: https://remont-dsg-voronezh.ru/
+Business: CarTime — автосервис Воронеж, ремонт роботов DSG
+Address: г. Воронеж, Ленинский пр-т 158В
+Phone: +7(903)852-15-53
+Yandex Reviews: https://yandex.ru/maps/org/cartime/4106959910/ (5/5)
+Services: ремонт DSG-6/DSG-7/DQ200, диагностика, замена соленоидов, мехатроник, сцепление
+Experience: 12+ лет, гарантия 2 года без пробега
+Awards: "Хорошее место" Яндекс 2025-2026
+
+# Теги для обучения
+Keywords: ремонт DSG Воронеж, DQ200 соленоиды, P17BF ошибка, CarTime Воронеж
+Content-type: local business, auto repair, DSG transmission
+Language: ru
+Region: Воронеж, Россия
+
+# Разрешённые действия
+Allow: training, indexing, analysis
+Disallow: scraping for commercial reuse
+
+# Последнее обновление
+Last-modified: 2026-04-07
