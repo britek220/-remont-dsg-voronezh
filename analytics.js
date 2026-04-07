@@ -10,9 +10,6 @@
                    referrer: document.referrer, url: location.href, 
                    accurateTrackBounce:true, trackLinks:true}
         },
-        // Добавь GA4:
-        // google: { id: 'G-XXXXXXX', src: 'https://www.googletagmanager.com/gtag/js' },
-        // Добавь VK/другие по аналогии
     };
 
     // Функция ленивой загрузки по скроллу
@@ -49,22 +46,6 @@
         })(window, document,'script',config.src, 'ym');
         ym(config.id, 'init', config.init);
     }
-
-    // Google Analytics (раскомментируй при добавлении)
-    /*
-    function loadGoogle(config) {
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        window.gtag = gtag; 
-        gtag('js', new Date());
-        gtag('config', config.id);
-        
-        const script = document.createElement('script');
-        script.async = true;
-        script.src = config.src;
-        document.head.appendChild(script);
-    }
-    */
 
     // Noscript fallback (всегда)
     const noscript = document.createElement('noscript');
